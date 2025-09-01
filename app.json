@@ -2,7 +2,7 @@
   "expo": {
     "name": "phantom-expo-app",
     "slug": "phantom-expo-app",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -34,7 +34,11 @@
     ],
     "scheme": "phantom-expo-app",
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "8811f34a-a6fd-43f4-a217-1f00ff95fb9e"
+      }
+    },
+    "owner": "syrikx"
   }
 }

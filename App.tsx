@@ -50,7 +50,8 @@ export default function App() {
       config={{
         organizationId: 'phantom-expo-test-app-2024', // Temporary test organization ID
         scheme: 'phantom-expo-app',
-        addressTypes: ['solana', 'ethereum']
+        addressTypes: ['solana', 'ethereum'],
+        apiBaseUrl: 'https://api.phantom.app'
       }}
     >
       <WalletScreen />
